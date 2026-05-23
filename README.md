@@ -5,7 +5,7 @@ Lightweight 2D game engine built with Pygame, designed for building simple games
 
 This project has two parts:
 
-- **MVHSGameEngineML** — A simple 2D game engine with physics, collision, animation, camera, event system, and UI overlay
+- **MVHSGameEngineRL** — A simple 2D game engine with physics, collision, animation, camera, event system, and UI overlay
 
 - **Games** — Games built on top of the engine, each with an RL training pipeline that lets an AI agent learn to play
 
