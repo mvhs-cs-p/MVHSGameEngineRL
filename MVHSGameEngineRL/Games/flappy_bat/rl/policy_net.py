@@ -1,5 +1,8 @@
 import torch.nn as nn
 
+from Games.flappy_bat.src import config
+
+
 class FlappyBatPolicyNet(nn.Module):
     """
     Policy Network Structure
@@ -11,7 +14,7 @@ class FlappyBatPolicyNet(nn.Module):
     cannot change.
     """
 
-    def __init__(self, obs_dim = 9, n_actions = 2):
+    def __init__(self, obs_dim = 9, n_actions = config.ACTIONS):
         """
         Define the structure of the neural network.
         :param obs_dim: Number of input observations. This must be the same as the number values returned in the tensor

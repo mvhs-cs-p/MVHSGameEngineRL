@@ -1,5 +1,6 @@
 import torch.nn as nn
 
+from Games.simple_game.src import config
 
 
 class SimpleGameAgentPolicyNet(nn.Module):
@@ -13,7 +14,7 @@ class SimpleGameAgentPolicyNet(nn.Module):
     cannot change.
     """
 
-    def __init__(self, obs_dim = 4, n_actions = 5):
+    def __init__(self, obs_dim = 4, n_actions = config.ACTIONS):
         """
         Define the structure of the neural network.
         :param obs_dim: Number of input observations. This must be the same as the number values returned in the tensor

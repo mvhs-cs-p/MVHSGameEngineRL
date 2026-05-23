@@ -97,8 +97,8 @@ MAX_BARRIER_VERTICAL_GAP_CENTER = 0.65
 #######################################################################
 # Reinforcement Learning Configuration
 #######################################################################
-# The number of actions the agent has, in this game there are 5 total, LEFT, RIGHT, UP, DOWN and NOOP
-ACTIONS = 5
+# The number of actions the agent has, in this game there are 2, NOOP and FLAP
+ACTIONS = 2
 
 # Max training steps per episode. The game runs for this many frames per episode.
 # Typical range: 500 - 10000. At 60 FPS, 6000 steps = 100 seconds of gameplay.
