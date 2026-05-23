@@ -24,7 +24,7 @@ Modes:
     set in PLAY_POLICY_FILE and runs it with the game rendering visible. 
     Use this to evaluate a trained agent.
 """
-MODE = Mode.AI_TRAIN
+MODE = Mode.HUMAN_PLAY
 
 #########################################################################
 # File path configuration
@@ -41,7 +41,7 @@ POLICY_DIRECTORY = BASE_DIR / "rl" / "policies"
 
 # When curriculum training change the file name of the policy file you would like to start
 # training from. Policies are saved in the policies directory for this game
-PLAY_POLICY_FILE = "best_policy_20260522-2059.pt"
+PLAY_POLICY_FILE = ""
 
 PLAY_POLICY_FILE_PATH = POLICY_DIRECTORY / PLAY_POLICY_FILE
 ########################################################################

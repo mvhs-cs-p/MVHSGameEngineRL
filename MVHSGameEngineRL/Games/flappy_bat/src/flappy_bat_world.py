@@ -23,7 +23,7 @@ class FlappyBatGameWorld(World):
     def __init__(self, mode=Mode.HUMAN_PLAY):
         super().__init__(mode)
         self.mode = mode
-        self.total_world_length = config.WINDOW_WIDTH * 15
+        self.total_world_length = config.WINDOW_WIDTH * 10
         self.player = FlappyBatPlayer(100, config.WINDOW_HEIGHT // 2)
         self.barriers = []
         self.score = 0
