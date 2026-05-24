@@ -151,7 +151,7 @@ class SimpleGameRLEnvironment(RLEnvironment):
             return -0.01
 
         distance_to_goal_change = (self.last_distance_to_goal - current_distance_to_goal) * 0.01
-        being_alive_penality = 0.01
+        being_alive_penality = -0.01
         return distance_to_goal_change + being_alive_penality
 
 
